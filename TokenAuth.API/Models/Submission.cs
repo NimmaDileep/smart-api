@@ -19,5 +19,8 @@ namespace TokenAuth.API.Models
         public string VendorCompany { get; set; }
         public string VendorName { get; set; }
         public string Status { get; set; }
+        public byte[] Resume { get; set; }
+        public string ResumeContentType { get; set; }
+
     }
 }

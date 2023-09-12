@@ -219,6 +219,10 @@
     <Compile Include="Migrations\202308251534086_AddSubmissionsTable.designer.cs">
       <DependentUpon>202308251534086_AddSubmissionsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202309061826572_AddResumeToSubmissions.cs" />
+    <Compile Include="Migrations\202309061826572_AddResumeToSubmissions.designer.cs">
+      <DependentUpon>202309061826572_AddResumeToSubmissions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Submission.cs" />
@@ -231,7 +235,11 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Subtrackdevapi - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Subtrackdevapi - FTP1.pubxml" />
+    <None Include="Properties\PublishProfiles\Subtrackdevapi - FTP2.pubxml" />
     <None Include="Properties\PublishProfiles\Subtrackdevapi - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Subtrackdevapi - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\Subtrackdevapi - Web Deploy2.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -248,6 +256,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202308251534086_AddSubmissionsTable.resx">
       <DependentUpon>202308251534086_AddSubmissionsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309061826572_AddResumeToSubmissions.resx">
+      <DependentUpon>202309061826572_AddResumeToSubmissions.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

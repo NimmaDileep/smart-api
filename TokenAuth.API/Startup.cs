@@ -21,9 +21,8 @@ namespace TokenAuth.API
 
             OAuthAuthorizationServerOptions options = new OAuthAuthorizationServerOptions
             {
-                //http and Https
                 AllowInsecureHttp = true,
-                TokenEndpointPath = new PathString("/token"), //https://localhost:44316/token
+                TokenEndpointPath = new PathString("/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(30),
                 Provider = new AppAuthorizationServerProvider()
             };
